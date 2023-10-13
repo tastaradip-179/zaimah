@@ -1,38 +1,154 @@
-.App {
+.mt-50{
+  margin-top: 50px;
+}
+.my-50{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.navbar{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
+  color: #134E47;
+  font-size: 17px;
+  font-weight: 400;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar svg{
+    border: 1px solid #134E47;
+    background-color: #134E47;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (min-width: 992px){
+  .navbar{
+    padding: 0 !important;
+  }
+  .navbar-collapse, .navbar-nav{
+    height: 100%;
+  }
+  .navbar-brand, .nav-link{
+    height: 100%;
+    border-right: 1px solid #DBDBDB;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.menu-tab{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 5px 10px;
+  height: 100px;
+}
+.menu-tab h6{
+  color: #134E47;
+  font-size: 14px;
+  font-weight: 400;
 }
 
-.App-link {
-  color: #61dafb;
+.search-tab{
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 10px;
+}
+.search-tab input{
+  border: 0 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+  color: #134E47;
+  width: 100%;
+  border: 0 !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+.card-name{
+  font-size: 18px;
+  font-size: 600;
+}
+.card-rate{
+  font-size: 13px;
+}
+.card-rate span{
+  font-weight: 300;
+}
+.card-name2{
+  font-size: 16px;
+  font-size: 400;
+}
+.card-distance{
+  font-size: 15px;
+  font-weight: 500;
+}
+.card-box{
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 5px;
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  line-height: 1.3;
+}
+.card-box span{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.dashed{
+  border: dashed 1px #535353;
+  display: inline-block;
+  width: 100%;
+  stroke-width: 5;
+}
+
+.footer1{
+  color: #89A7A3;
+}
+.footer1 svg{
+  border: 1px solid #89A7A3;
+  border-radius: 50%;
+  width: 20px;
+}
+.footer2{
+  color: #656565;
+  font-weight: 400;
+}
+.footer2 h6{
+  color: #656565;
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer2 h6 span{
+  border: 2px solid #656565;
+  border-radius: 50%;
+  padding: 0 5px;
+  margin-right: 5px;
+  font-weight: 500;
+}
+.footer2 ul{
+  list-style: none;
+  text-align: right;
+}
+.footer2 ul li{
+  display: inline-flex;
+  margin-right: 14px;
+}
+.footer2 ul li a{
+  color: #656565;
+  text-decoration: none;
+}
+.footer3 h6{
+  color: #656565;
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer3 h6 span{
+  color: #134E47;
+  font-weight: 500;
 }
