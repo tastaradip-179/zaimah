@@ -5,7 +5,7 @@ import { AiFillStar } from "react-icons/ai";
 const Ambulance = () => {
   return (
     <>
-    <div className='mt-50'>
+    <div className='mt-70'>
       <div className='d-flex gap-3'>
         <div>
           <img src="images/fav.png" alt="" className='mt-1'/>
@@ -15,7 +15,7 @@ const Ambulance = () => {
         </div>
       </div>
       <Row className='mt-50'>
-        <Col>
+        <Col xs={12} sm={6} lg={3} className='mb-25'>
           <Card>
             <Card.Img variant="top" src="images/grid1.png" />
             <Card.Body>
@@ -42,7 +42,7 @@ const Ambulance = () => {
             </div>
           </Card>
         </Col>
-        <Col>
+        <Col xs={12} sm={6} lg={3} className='mb-25'>
         <Card>
             <Card.Img variant="top" src="images/grid2.png" />
             <Card.Body>
@@ -69,7 +69,7 @@ const Ambulance = () => {
             </div>
           </Card>
         </Col>
-        <Col>
+        <Col xs={12} sm={6} lg={3} className='mb-25'>
         <Card>
           <Card.Img variant="top" src="images/grid3.png" />
             <Card.Body>
@@ -96,7 +96,7 @@ const Ambulance = () => {
             </div>
           </Card>
         </Col>
-        <Col>
+        <Col xs={12} sm={6} lg={3} className='mb-25'>
         <Card>
           <Card.Img variant="top" src="images/grid4.png" />
             <Card.Body>

@@ -15,7 +15,7 @@ const Pharmacy = () => {
         </div>
       </div>
       <Row className='mt-50'>
-        <Col xs={12} sm={6} lg={3} className='mb-20'>
+        <Col xs={12} sm={6} lg={3} className='mb-25'>
           <Card>
             <Card.Img variant="top" src="images/grid1.png" />
             <Card.Body>
@@ -42,7 +42,7 @@ const Pharmacy = () => {
             </div>
           </Card>
         </Col>
-        <Col xs={12} sm={6} lg={3} className='mb-20'>
+        <Col xs={12} sm={6} lg={3} className='mb-25'>
         <Card>
             <Card.Img variant="top" src="images/grid2.png" />
             <Card.Body>
@@ -69,7 +69,7 @@ const Pharmacy = () => {
             </div>
           </Card>
         </Col>
-        <Col xs={12} sm={6} lg={3} className='mb-20'>
+        <Col xs={12} sm={6} lg={3} className='mb-25'>
         <Card>
           <Card.Img variant="top" src="images/grid3.png" />
             <Card.Body>
@@ -96,7 +96,7 @@ const Pharmacy = () => {
             </div>
           </Card>
         </Col>
-        <Col xs={12} sm={6} lg={3} className='mb-20'>
+        <Col xs={12} sm={6} lg={3} className='mb-25'>
         <Card>
           <Card.Img variant="top" src="images/grid4.png" />
             <Card.Body>

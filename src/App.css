@@ -4,8 +4,8 @@
 .mt-70{
   margin-top: 70px;
 }
-.mb{
-  margin-bottom: 20px;
+.mb-25{
+  margin-bottom: 25px;
 }
 .my-50{
   margin-top: 50px;
@@ -128,7 +128,9 @@
 .footer1 svg{
   border: 1px solid #89A7A3;
   border-radius: 50%;
-  width: 20px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
 }
 .footer2{
   color: #656565;

@@ -8,7 +8,7 @@ const Search = () => {
     <>
         <Row className='mt-50'>
           <Col md={4}>
-            <div className='search-tab'> 
+            <div className='search-tab mb-25'> 
               <Dropdown>
                 <Dropdown.Toggle variant="none" id="dropdown-basic">
                   <HiOutlineAdjustmentsHorizontal/> 

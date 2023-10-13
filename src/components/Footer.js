@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='mt-50'>
         <div className='dashed'></div>
         <div className='footer1 my-50'>
-          <div className='d-flex justify-content-between'>
+          <div className='d-flex flex-row flex-wrap justify-content-between'>
             <div>
               <h4>Great Pharma</h4>
             </div>
@@ -26,8 +26,8 @@ const Footer = () => {
         </div>
         <div className='dashed'></div>
         <div className='footer2 my-50'>
-          <div className='d-flex justify-content-between'>
-            <div>
+          <div className='d-flex flex-row flex-wrap justify-content-between'>
+            <div className='mb-25'>
               <h6><span>c</span>2022 Great Pharma</h6>
             </div>
             <div>
@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
         <div className='dashed'></div>
         <div className='footer3 my-50'>
-          <div className='d-flex justify-content-between'>
+          <div className='d-flex flex-row flex-wrap justify-content-between'>
             <div>
               <h6>
               © 2021 Copyright <span>Great Pharma</span>. All Rights Reserved
