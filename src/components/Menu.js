@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 const Menu = () => {
   return (
     <>
-        <Row className="justify-content-md-center row-cols-5 mt-50">
+        <Row className="justify-content-md-center row-cols-md-5 mt-50">
         <Col>
             <div className='menu-tab'>
                     <div className='position-relative w-100'>
