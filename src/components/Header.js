@@ -15,7 +15,7 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" style={{width: "100%"}}>
-            <NavDropdown title={<><span className='text-uppercase'>Delivering To: </span><span><b>3 Dhakeshwari Rd Dhaka</b></span></>} id="basic-nav-dropdown" style={{width: "35%"}}>
+            <NavDropdown title={<><span className='text-uppercase'>Delivering To: </span><span><b>3 Dhakeshwari Rd Dhaka</b></span></>} id="basic-nav-dropdown" style={{width: "35%", maxWidth: "100%"}}>
               <NavDropdown.Item href="#action/3.1"></NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -26,7 +26,7 @@ const Header = () => {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title={<><span className='text-uppercase'>When: </span><span><b>ASAP</b></span></>} id="basic-nav-dropdown" style={{width: "25%"}}>
+            <NavDropdown title={<><span className='text-uppercase'>When: </span><span><b>ASAP</b></span></>} id="basic-nav-dropdown" style={{width: "25%", maxWidth: "100%"}}>
               <NavDropdown.Item href="#action/3.1"></NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -37,9 +37,9 @@ const Header = () => {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#home" style={{width: "10%"}}>BN</Nav.Link>
-            <Nav.Link href="#link" style={{width: "20%"}}><FiUsers/>Login</Nav.Link>
-            <Nav.Link href="#link" style={{width: "20%", borderRight: "0"}}><AiOutlineShoppingCart/>Cart</Nav.Link>
+            <Nav.Link href="#home" style={{width: "10%", maxWidth: "100%"}}>BN</Nav.Link>
+            <Nav.Link href="#link" style={{width: "20%", maxWidth: "100%"}}><FiUsers/>Login</Nav.Link>
+            <Nav.Link href="#link" style={{width: "20%", maxWidth: "100%",  borderRight: "0"}}><AiOutlineShoppingCart/>Cart</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
