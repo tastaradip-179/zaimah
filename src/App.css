@@ -41,7 +41,11 @@
     border-right: 1px solid #DBDBDB;
   }
 }
-
+@media (max-width: 746px){
+  .nav-link{
+    width: 100% !important;
+  }
+}
 
 .menu-tab{
   display: flex;
